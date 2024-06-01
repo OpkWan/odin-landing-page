@@ -85,9 +85,41 @@ img {
 /* First Section Ends */
 
 /* Second Section Starts */
+.second-section {
+    height: 300px;
 
+}
 
+.second-section h2 {
+    text-align: center;
+    padding: 30px;
+    color: #1F2937;
+    font-size: 36px;
+}
 
+.second-section .images {
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-around;
+    margin: 0px 80px;
+    /* width: 800px; */
+}
+
+.images div img {
+    width: 150px;
+    height: 150px;
+}
+
+.images div {
+    width: 150px;
+    height: 150px;
+}
+
+.images div h5 {
+    text-align: center;
+    color: #1F2937;
+    font-weight: 100;
+}
 /* Second Section Ends */
 
 
