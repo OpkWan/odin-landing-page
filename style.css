@@ -40,6 +40,7 @@ img {
 .header > h1 {
     font-size: 24px;
     color: #F9FAF8;
+    font-size: 40px;
 }
 /* Header Ends */
 
@@ -87,7 +88,6 @@ img {
 /* Second Section Starts */
 .second-section {
     height: 300px;
-
 }
 
 .second-section h2 {
@@ -124,6 +124,83 @@ img {
 
 
 /* Third Section Starts */
+.third-section {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;  
+}
 
+.third-section div h2 {
+    color: #1F2937;
+    font-weight: 100;
+    font-size: 36px;
+    
+}
 
+.third-section div h5 {
+    text-align: right;
+    
+}
+
+.third-section div {
+    width: 1200px;
+    margin: 50px 80px;
+}
 /* Third Section Ends */
+
+/* Fourth Section Starts */
+.fourth-section {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section section {
+    background-color: #3882F6;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.fourth-section h3 {
+    color: #F9FAF8;
+}
+
+.fourth-section p {
+    color: #E5E7EB;
+    font-size: 10p;
+}
+
+.fourth-section button {
+    margin-left: 100px;
+    margin-top: 8px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-width: 2px;
+    width: 80px;
+    height: 25px;
+    color: #F9FAF8;
+    border-color: #F9FAF8;;
+}
+/* Fourth Section Ends */
+
+
+
+/* Footer Starts */
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+footer h5 {
+    font-size: 14px;
+    font-weight: 100;
+}
